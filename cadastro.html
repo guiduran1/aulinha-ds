@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <title>matrículas</title>
+    <title>matrículas etec lins</title>
 </head>
 <body>
   <CEnter>
@@ -14,9 +15,21 @@
             ETEC DE LINS - MATRÍCULAS 
         </h1>
     </div> 
-  </CEnter> 
-    
-    <form action="inserir_cliente.php" method="POST" class="form-horizontal">
+  </CEnter>
+
+<form action="index.html">
+  <button class="btn btn-primary btn-danger btn-lg">inicio</button>
+</form>
+
+  <div class="container" style="margin-top:30px">
+    <div class="row">
+      <div class="col-sm-4">
+        </ul>
+        <hr class="d-sm-none">
+      </div>
+
+
+<form action="#" method="POST" class="form-horizontal">
     
         <div class="form-group ">
           <label for="inputNome" class="col-sm-2 control-label col-form-label"> NOME</label>
@@ -25,13 +38,7 @@
         </div>
         </div>
     
-        <div class="form-group ">
-          <label for="inputuser" class="col-sm-2 control-label col-form-label"> USUARIO</label>
-        <div class="col-sm-8">
-          <input type="text" name="usuario" class="form-control" id="inputuser" placeholder="Usuario para login">
-        </div>
-        </div>
-    
+      
         <div class="form-group ">
           <label for="inputsenha" class="col-sm-2 control-label col-form-label"> SENHA</label>
         <div class="col-sm-8">
@@ -52,6 +59,7 @@
           <select name="sexo" class="form-control" id="sexo">
            <option value="Masculino">Masculino</option> 
            <option value="Feminino">Feminino</option>
+           <option value="outros">outros</option>
            </select>
          </div>
         </div> 
@@ -86,13 +94,6 @@
         </div> 
     
         <div class="form-group ">
-          <label for="inputbairro" class="col-sm-2 control-label col-form-label"> BAIRRO</label>
-          <div class="col-sm-8">
-            <input type="text" name="bairro" class="form-control" id="inputCidade" placeholder="Bairro">
-          </div>
-        </div> 
-    
-        <div class="form-group ">
           <label for="inputCidade" class="col-sm-2 control-label col-form-label"> CIDADE</label>
           <div class="col-sm-8">
             <input type="text" name="cidade" class="form-control" id="inputCidade" placeholder="Cidade">
@@ -103,9 +104,11 @@
           </select>
          </div>
         </div> 
-        <button class="btn btn-primary btn-lg">Cadastrar</button>
+        <center>
+        <button class="btn btn-primary btn-danger btn-lg">Cadastrar</button>
+      </center>
 
-      </form>
+</form>
     
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.js"></script>
